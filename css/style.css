@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.navbar-inicio {
+  height: 45px;
+  background-color: #fff;
+}
+
+.navbar-menu {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar-menu--close {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-menu--close:hover {
+  color: #323131;
+}
+
+.nav-bar--link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-bar--link:hover {
+  color: #323131;
+}
+
+.nav-right--item {
+  color: #000;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.nav-right--icon {
+  margin-right: 5px;
+}
+
+.header-inicio {
+  background-image: url(../assets/inicio/fondo.jpg);
+  height: 115vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-inicio {
+  height: 100vh;
+}
+.main-inicio .row .main-inicio--woman {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/woman.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.main-inicio .row .main-inicio--woman:hover {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/inicio/woman.jpg);
+}
+.main-inicio .row .main-inicio--woman .woman-text {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.main-inicio .row .main-inicio--men {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/men.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+  height: 600px;
+}
+.main-inicio .row .main-inicio--men:hover {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/inicio/men.jpg);
+}
+.main-inicio .row .main-inicio--men .men-text {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
