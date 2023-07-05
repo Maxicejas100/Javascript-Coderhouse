@@ -44,8 +44,9 @@ if (dineroUsuario >= 4000 && dineroUsuario <= 10000) {
     console.log('Se te restara 2000 de envio')
     subtotal += envioPago
     subtotal = (dineroUsuario - subtotal) / precioRemera
-    console.log('Solo te alcanza para ' + subtotal + ' Remeras')
-
+    let numeroAbajo = Math.floor(subtotal)
+    prendas[2].amount += numeroAbajo
+    prendas[2].price += (precioRemera * numeroAbajo)
 }
 else if(dineroUsuario > 10000){
     console.log('Tienes envio gratis')
