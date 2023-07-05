@@ -1,32 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .navbar-inicio {
   height: 45px;
   background-color: #fff;
 }
 
 .navbar-menu {
+  font-family: "Poppins", sans-serif;
   color: #000;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
+.navbar-menu:hover {
+  color: #434141;
+}
+
+.navbar-menu--title {
+  margin-top: 12px;
+}
+
 .navbar-menu--close {
   color: #000;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .navbar-menu--close:hover {
-  color: #323131;
+  color: #434141;
 }
 
 .nav-bar--link {
   color: #000;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .nav-bar--link:hover {
-  color: #323131;
+  color: #434141;
 }
 
 .nav-right--item {
@@ -36,16 +48,47 @@
   font-size: 1rem;
 }
 
+.nav-right--item:hover {
+  color: #434141;
+}
+
 .nav-right--icon {
   margin-right: 5px;
 }
 
+.nav-right--icon:hover {
+  color: #434141;
+}
+
 .header-inicio {
-  background-image: url(../assets/inicio/fondo.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/inicio/fondo.jpg);
   height: 115vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.hero-inicio-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 10rem;
+}
+
+.inicio-menu {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+}
+
+.inicio-menu2 {
+  border-right: 2px solid #000;
+}
+
+.inicio-menu3 {
+  border-right: 2px solid #000;
 }
 
 .main-inicio {
