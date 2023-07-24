@@ -61,7 +61,7 @@
 }
 
 .header-inicio {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/inicio/fondo.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/inicio/fondo.jpg);
   height: 115vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,39 +91,172 @@
   border-right: 2px solid #000;
 }
 
-.main-inicio {
-  height: 100vh;
+.main-inicio .productos-destacados {
+  height: 110vh;
 }
-.main-inicio .row .main-inicio--woman {
+.main-inicio .productos-destacados .destacados-text--container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+  height: 10%;
+  margin-top: 10px;
+}
+.main-inicio .productos-destacados .destacados-text--container .destacados-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.main-inicio .zone-gendur a .main-inicio--woman {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/woman.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
 }
-.main-inicio .row .main-inicio--woman:hover {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/inicio/woman.jpg);
+.main-inicio .zone-gendur a .main-inicio--woman:hover {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/inicio/woman.jpg);
 }
-.main-inicio .row .main-inicio--woman .woman-text {
+.main-inicio .zone-gendur a .main-inicio--woman .woman-text {
   color: #fff;
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-.main-inicio .row .main-inicio--men {
+.main-inicio .zone-gendur a .main-inicio--men {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/men.jpg);
   background-size: cover;
   background-position: center;
   margin-left: 10px;
   height: 600px;
 }
-.main-inicio .row .main-inicio--men:hover {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/inicio/men.jpg);
+.main-inicio .zone-gendur a .main-inicio--men:hover {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/inicio/men.jpg);
 }
-.main-inicio .row .main-inicio--men .men-text {
+.main-inicio .zone-gendur a .main-inicio--men .men-text {
   color: #fff;
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+}
+
+.destacados-button {
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+}
+
+.destacados-container {
+  border-bottom: 2px solid #000;
+}
+
+.nav-right--item {
+  cursor: pointer;
+}
+
+.carrito {
+  max-height: 600px;
+  max-width: 800px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  overflow-y: scroll;
+}
+
+.carrito-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 100%;
+}
+
+.carrito-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+}
+
+.carrito-header--text {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.carrito-header--text:hover {
+  color: #434141;
+}
+
+.carrito-header--close {
+  margin-right: 10px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.carrito-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-left: 1px solid #000;
+}
+
+.carrito-product--img {
+  height: 200px;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.carrito-product--name {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  color: #000;
+}
+
+.carrito-product--price {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.carrito-product--amount {
+  margin-left: 10px;
+  margin-bottom: 19px;
+}
+
+.delete-product {
+  margin-bottom: 17px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.total-carrito--container {
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.total-carrito--text {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
