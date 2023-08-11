@@ -64,9 +64,9 @@
 }
 
 .header-inicio {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/inicio/fondo.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/fondo.jpg);
   height: 115vh;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -246,6 +246,7 @@
 .delete-product {
   margin-bottom: 17px;
   margin-left: 20px;
+  color: #ff0000;
   cursor: pointer;
 }
 
@@ -261,6 +262,51 @@
   margin-left: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+}
+
+.select-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.select-product-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.select-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.select-button {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 1rem;
+}
+
+.select-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.select-button:nth-child(1) {
+  margin-right: 50px;
+}
+
+.select-button:nth-child(3) {
+  margin-left: 50px;
 }
 
 .card-men-button {

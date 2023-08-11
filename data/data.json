@@ -12,7 +12,6 @@
     "price": 18500,"cantidad": 1, 
     "img": "../assets/men/jogger3/jogger34.webp"},      
     {"id": 4,"name": "Jogger Negro Oversize", 
-    "destacados": true,
     "categoria": "pantalon", "genero": "hombre", 
     "price": 28300, "cantidad": 1, 
     "img": "../assets/men/jogger4/jogger44.webp"},
@@ -27,7 +26,6 @@
     "categoria": "remera", "genero": "hombre", 
     "price": 7999,"cantidad": 1, "img": "../assets/men/tank3/tank31.webp"},
     {"id": 8,"name": "Musculosa Naranja",
-    "destacados": true,
     "categoria": "remera", "genero": "hombre",
     "price": 9700, "cantidad": 1,
     "img": "../assets/men/tank4/tank41.avif"},
@@ -44,7 +42,6 @@
     {"id": 11,"name": "Leggins Negro", 
     "price": 15230,"cantidad": 1,
     "categoria": "leggin", "genero": "mujer", 
-    "destacados": true,
     "img": "../assets/woman/leggin3/leggin31.webp"},
     {"id": 12,"name": "Leggins Negro Liso", 
     "price": 12750,"cantidad": 1,
@@ -66,7 +63,6 @@
     "img": "../assets/woman/tshirt3/tshirt31.webp"},
     {"id": 16,"name": "Remera Blanca Oversize", 
     "price": 6750,"cantidad": 1,
-    "destacados": true,
     "categoria": "remera", "genero": "mujer", 
     "img": "../assets/woman/tshirt4/tshirt41.webp"}
 ]

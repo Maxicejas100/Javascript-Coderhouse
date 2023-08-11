@@ -14,7 +14,7 @@ const crearCarrito = ()=>{
     carritoContainer.style.display = "flex"
     const carritoHeader = document.createElement("div")
     carritoHeader.innerHTML = `
-    <a class="carrito-header--text" href="../page/carrito.html">Ver carrito en pagina completa <i class="fa-solid fa-arrow-right"></i></a>`
+    <p class="carrito-header--text">PRODUCTOS SELECCIONADOS</p>`
     const carritoClose = document.createElement("p")
 
     // BOTON PARA CERRAR CARRITO
@@ -43,7 +43,7 @@ const crearCarrito = ()=>{
         `
         // BOTON DE BORRAR PRODUCTO
         let deleteProduct = document.createElement("span")
-        deleteProduct.className = 'fa-solid fa-x delete-product'
+        deleteProduct.className = 'fa-solid fa-trash delete-product'
         carritoContent.append(deleteProduct)
         deleteProduct.addEventListener("click",()=>{
             borrarProducto(product.id)
