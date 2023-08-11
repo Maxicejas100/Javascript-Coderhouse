@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .navbar-inicio {
   height: 45px;
   background-color: #fff;
@@ -81,6 +84,7 @@
 .inicio-menu {
   border-bottom: 2px solid #000;
   border-top: 2px solid #000;
+  width: 20%;
 }
 
 .inicio-menu2 {
@@ -257,6 +261,38 @@
   margin-left: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+}
+
+.card-men-button {
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+}
+
+.card-name-men {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.card-price-men {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.card-woman-button {
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

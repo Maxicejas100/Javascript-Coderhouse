@@ -1,3 +1,7 @@
+// CARRITO
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+
 // ELEMENTOS
 let verCarrito = document.getElementById("carrito-navbar")
 let carritoContainer = document.getElementById("carrito-container")
@@ -41,7 +45,9 @@ const crearCarrito = ()=>{
         let deleteProduct = document.createElement("span")
         deleteProduct.className = 'fa-solid fa-x delete-product'
         carritoContent.append(deleteProduct)
-        deleteProduct.addEventListener("click",borrarProducto)
+        deleteProduct.addEventListener("click",()=>{
+            borrarProducto(product.id)
+        })
         carritoContainer.append(carritoContent)
     }) 
 
@@ -59,8 +65,8 @@ const crearCarrito = ()=>{
 
 verCarrito.addEventListener("click",crearCarrito)
 // FUNCION QUE PERMITE BORRAR PRODUCTO DE CARRITO
-const borrarProducto = ()=>{
-    const buscarId = carrito.find((el)=> el.id)
+const borrarProducto = (id)=>{
+    const buscarId = carrito.find((el)=> el.id === id)
 
     carrito = carrito.filter((carritoId)=>{
         return carritoId !== buscarId
