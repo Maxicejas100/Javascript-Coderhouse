@@ -5,19 +5,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .navbar-inicio {
-  height: 45px;
-  background-color: #fff;
+  height: 60px;
+  background: #222222;
+}
+
+.navbar-left, .navbar-right {
+  height: 100%;
+  margin-top: 10px;
 }
 
 .navbar-menu {
   font-family: "Poppins", sans-serif;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .navbar-menu:hover {
-  color: #434141;
+  color: #dddddd;
 }
 
 .navbar-menu--title {
@@ -45,14 +51,14 @@
 }
 
 .nav-right--item {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
 
 .nav-right--item:hover {
-  color: #434141;
+  color: #dddddd;
 }
 
 .nav-right--icon {
@@ -60,7 +66,7 @@
 }
 
 .nav-right--icon:hover {
-  color: #434141;
+  color: #dddddd;
 }
 
 .header-inicio {
@@ -82,19 +88,22 @@
 }
 
 .inicio-menu {
-  border-bottom: 2px solid #000;
-  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
   width: 20%;
 }
 
 .inicio-menu2 {
-  border-right: 2px solid #000;
+  border-right: 1px solid #000;
 }
 
 .inicio-menu3 {
-  border-right: 2px solid #000;
+  border-right: 1px solid #000;
 }
 
+.main-inicio {
+  background-color: #F2F1EB;
+}
 .main-inicio .productos-destacados {
   height: 110vh;
 }
@@ -110,6 +119,7 @@
   font-weight: 700;
   font-size: 2rem;
   margin-top: 20px;
+  color: black;
 }
 .main-inicio .zone-gendur a .main-inicio--woman {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/inicio/woman.jpg);
